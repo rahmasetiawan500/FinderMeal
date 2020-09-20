@@ -1,0 +1,50 @@
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 32px auto;
+}
+
+.back-to-top{
+    
+    border-radius: 50px;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #7a5cf0;
+    bottom: 40px;
+    right: 50px;
+    text-decoration:none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+.content{
+    background-image: url("data:image/svg+xml,%3Csvg width='1440' height='1024' viewBox='0 0 1440 1024' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.25' clip-path='url(%23clip0)'%3E%3Crect x='93.5' y='884.5' width='49' height='49' stroke='black' stroke-width='5'/%3E%3Cpath d='M1126.56 124L1152.54 79L1178.52 124H1126.56Z' stroke='black' stroke-width='5'/%3E%3Cpath d='M126.853 189.892L80.3633 236.033M81.6065 187.6L129.156 235.509' stroke='black' stroke-width='5'/%3E%3Ccircle cx='264.071' cy='25.0547' r='26.39' transform='rotate(-62 264.071 25.0547)' stroke='black' stroke-width='5'/%3E%3Crect x='521.366' y='102.627' width='43.06' height='43.06' transform='rotate(3 521.366 102.627)' stroke='black' stroke-width='5'/%3E%3Cpath d='M1352.92 1.40791L1410.77 -31.9971M1396.94 15.445L1362.52 -44.1808' stroke='black' stroke-width='5'/%3E%3Ccircle cx='236.326' cy='100.305' r='15.05' transform='rotate(159 236.326 100.305)' stroke='black' stroke-width='5'/%3E%3Cpath d='M771.109 107.495L742.335 100.852L762.475 79.2537L771.109 107.495Z' stroke='black' stroke-width='5'/%3E%3Crect x='1331.81' y='204.931' width='27.4' height='27.4' transform='rotate(48 1331.81 204.931)' stroke='black' stroke-width='5'/%3E%3Ccircle cx='290.407' cy='209.822' r='21.53' transform='rotate(-136 290.407 209.822)' stroke='black' stroke-width='5'/%3E%3Crect x='58.1039' y='88.5794' width='39.28' height='39.28' transform='rotate(170 58.1039 88.5794)' stroke='black' stroke-width='5'/%3E%3Cpath d='M1322.31 252.201L1294.15 232.48L1325.31 217.95L1322.31 252.201Z' stroke='black' stroke-width='5'/%3E%3Crect x='66.9663' y='328.581' width='43.06' height='43.06' transform='rotate(62 66.9663 328.581)' stroke='black' stroke-width='5'/%3E%3Crect x='137.821' y='185.977' width='27.4' height='27.4' transform='rotate(-104 137.821 185.977)' stroke='black' stroke-width='5'/%3E%3Cpath d='M1412.71 380.716L1431.25 429.024M1396.63 412.695L1446.42 393.585' stroke='black' stroke-width='5'/%3E%3Ccircle cx='1079.27' cy='231.898' r='18.83' transform='rotate(121 1079.27 231.898)' stroke='black' stroke-width='5'/%3E%3Ccircle cx='36.3736' cy='527.848' r='14.78' transform='rotate(-16 36.3736 527.848)' stroke='black' stroke-width='5'/%3E%3Cpath d='M1160.25 509.59L1215.79 474.881M1203.87 521.837L1168.1 464.594' stroke='black' stroke-width='5'/%3E%3Cpath d='M1347.51 685.367L1357.35 623.267L1406.21 662.835L1347.51 685.367Z' stroke='black' stroke-width='5'/%3E%3Cpath d='M221.547 727.788L182.109 703.144L223.17 681.311L221.547 727.788Z' stroke='black' stroke-width='5'/%3E%3Crect x='1337.07' y='753.835' width='52.78' height='52.78' transform='rotate(-168 1337.07 753.835)' stroke='black' stroke-width='5'/%3E%3Crect x='467.966' y='870.581' width='56.56' height='56.56' transform='rotate(62 467.966 870.581)' stroke='black' stroke-width='5'/%3E%3Cpath d='M1359.64 876.407L1307.08 877.324L1332.56 831.347L1359.64 876.407Z' stroke='black' stroke-width='5'/%3E%3Cpath d='M241.914 1037.78L208.318 1064.99M212.356 1033.27L240.392 1067.89' stroke='black' stroke-width='5'/%3E%3Cpath d='M603.16 991.6V1054.48M571 1020.88H635.8' stroke='black' stroke-width='5'/%3E%3Cpath d='M1286.49 1009.78L1258.77 971.624M1293.09 977.834L1253.77 1006.4' stroke='black' stroke-width='5'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0'%3E%3Crect width='1440' height='1024' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-repeat: repeat;
+    background-position: center;
+    height: 150vh;
+    widows: 100%;
+    background-size: 65%;
+
+}
+artist-list {
+    display: block;
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+}
